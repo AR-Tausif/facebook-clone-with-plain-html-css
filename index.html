@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook.com</title>
+
+    <!-- Fontawesome icon linked here -->
+    <link rel="stylesheet" href="./Assets/Css/all.min.css">
+    <link rel="stylesheet" href="./Assets/Css/fontawesome.min.css">
+
+    <!-- Plain css linked here -->
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+
+
+
+    <!-- Css tailwind CDN linked here! -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="branding">
+                <i class="fa-brands fa-facebook"></i>
+                <span><i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Search Facebook"></span>
+            </div>
+            <div class="services-icons">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <i class="fa-solid fa-flag"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="communicating">
+                <i class="fa-solid fa-grid"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </nav>
+
+
+        <form>
+            <label class="block">
+              <span class="block text-sm font-medium text-slate-700">Username</span>
+              <!-- Using form state modifers, the classes can be identical for every input -->
+              <input type="text" value="tbone" disabled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                invalid:border-pink-500 invalid:text-pink-600
+                focus:invalid:border-pink-500 focus:invalid:ring-pink-500
+              "/>
+            </label>
+            <!-- ... -->
+        </form>
+
+    </header>
+</body>
+
+</html>
